@@ -1,0 +1,29 @@
+extends layout
+
+block content
+  .container
+    .jumbotron
+      center
+        h1= title
+      p.homeWelcome Welcome to #{title}
+      
+        // Container for grid layout (12 cells)
+        .container
+          .row.well
+            .col-md-3.col-sm-3
+              h3 Add Pokemon
+              button.btn.btn-primary.btnDelete(type='button')
+                a(href='/add_pokemon') Add New Pokemon
+            .col-md-3.col-sm-3
+              h3 Delete Pokemon
+              form(action='#')
+                .form-group
+                  input#text.form-control(type='text' placeholder='Pokemon ID' required='isRequired')
+                  button.btn.btn-primary.btnDelete(type='button') Delete
+      
+    
+
+      
+
+
+  

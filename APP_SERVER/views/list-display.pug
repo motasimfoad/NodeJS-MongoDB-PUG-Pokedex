@@ -1,0 +1,21 @@
+extends layout
+
+block content
+  //
+    Header of the website.
+    
+  h1= "List of Pokemon's on PokeDex"
+  .row
+    .col-12.col-md-8
+      //
+        looping through the array for pokemons name, type and image.
+
+      each val in pokemon
+        //
+         Card to show fetched datas. 
+        a(href=`/pokemons/${val._id}`)
+          .card
+            img.card-img-top(src=val.image  alt='pokemon image')
+            .card-body
+              h4= val.name
+              p= "Type: "+val.type 

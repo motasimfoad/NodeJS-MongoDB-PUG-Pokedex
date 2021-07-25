@@ -1,0 +1,15 @@
+extends layout
+
+block content
+
+  h2 Add Pokemon 
+  form(action='' method='post')
+    input#name.form-control(type='text' name='name' placeholder='Pokemon Name' required='isRequired')
+    input#type.form-control(type='text' name='type' placeholder='Pokemon Type' required='isRequired')
+    input#image.form-control(type='text' name='image' placeholder='Pokemon Image Link' required='isRequired')
+    input#owner.form-control(type='text' name='owner' placeholder='Owner' required='isRequired')
+    input#season.form-control(type='text' name='season' placeholder='Season' required='isRequired')
+    input#hp.form-control(type='text' name='hp' placeholder='HP' required='isRequired')
+    input#weakness.form-control(type='text' name='weakness' placeholder='Weakness' required='isRequired')
+    br
+    input.btn.btn-primary(type='submit' value='Submit')

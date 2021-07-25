@@ -1,0 +1,19 @@
+extends layout
+
+block content
+  h1= "Pokemon Info for: "+ currentPokemon.name
+  .row
+    .col-sm-6
+      .card
+        .card-body
+          img.img-fluid(src=currentPokemon.image alt='pokemon image')
+    .col-sm-6
+      .card
+        .card-body
+          h5.card-title= "More Information about "+currentPokemon.name
+          p.card-text= "Type: "+currentPokemon.type
+          p.card-text= "Owner: "+currentPokemon.owner
+          p.card-text= "Season: "+currentPokemon.season
+          p.card-text= "HP: "+currentPokemon.stats[0].hp
+          p.card-text= "Weakness: "+currentPokemon.stats[0].weakness
+          

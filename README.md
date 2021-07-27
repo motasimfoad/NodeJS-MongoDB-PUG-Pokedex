@@ -1,6 +1,6 @@
 # NodeJS-MongoDB-PUG-Pokedex
 
-Pokedex is a simple nodejs app with mongodb backend
+Pokedex is a simple NodeJS app with CRUD operations!
 
 
 ![Find the Penguin Image](https://motasimfoad.com/webasset/nodePokedex/4.png)

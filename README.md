@@ -2,16 +2,15 @@
 
 Pokedex is a simple NodeJS app with CRUD operations!
 
-![Find the Penguin Image](https://motasimfoad.com/webasset/nodePokedex/4.png)
-![Find the Penguin Image](https://motasimfoad.com/webasset/nodePokedex/3.png)
-![Find the Penguin Image](https://motasimfoad.com/webasset/nodePokedex/2.png)
-![Find the Penguin Image](https://motasimfoad.com/webasset/nodePokedex/1.png)
+![Find the Penguin Image](https://motasimfoad.com/webasset/androidPokemon/1.png)
+![Find the Penguin Image](https://motasimfoad.com/webasset/androidPokemon/2.png)
+![Find the Penguin Image](https://motasimfoad.com/webasset/androidPokemon/3.png)
+![Find the Penguin Image](https://motasimfoad.com/webasset/androidPokemon/4.png)
 
 Built using:
 
-- NodeJS
-- ExpressJS 
-- MongoDB
-- PUGJS/JADE
+- Android Studio
+- Java 
+- Firebase
 
 Reach Me : https://motasimfoad.com/
